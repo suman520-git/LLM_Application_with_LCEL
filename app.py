@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 import os
-import langserve
+
 from langserve import add_routes
 from dotenv import load_dotenv
 load_dotenv()
